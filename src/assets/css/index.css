@@ -1,0 +1,12 @@
+.yellow-btn {
+  color: black;
+  background-color: #fcff00;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.yellow-btn:hover {
+  color: black;
+  background-color: #fcff00;
+}

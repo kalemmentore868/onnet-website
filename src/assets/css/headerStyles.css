@@ -1,0 +1,30 @@
+.active {
+  border-bottom: 2px solid #fcff00;
+}
+
+.n-link {
+  color: gray;
+  font-weight: 500;
+}
+
+.n-link:hover {
+  border-bottom: 2px solid #fcff00;
+}
+
+.login-btn {
+  color: gray;
+  background-color: white;
+  border: none;
+}
+
+.acc-icon {
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  color: inherit;
+}
+
+.login-box:hover {
+  color: #fcff00;
+}
