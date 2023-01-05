@@ -18,7 +18,10 @@ const Hero = () => {
           <p>
             We provide a wide array of digital solutions to fit your every need
           </p>
-          <Button className="yellow-btn mb-3">More Details</Button> <br />
+          <Button href="/services" className="yellow-btn mb-3">
+            More Details
+          </Button>{" "}
+          <br />
           <BsMouse size={40} />
         </div>
       </div>

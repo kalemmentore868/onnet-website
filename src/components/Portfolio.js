@@ -28,7 +28,7 @@ const Portfolio = () => {
                 >
                   <div className="text-white overlay">
                     <h4>{site.title}</h4>
-                    <a target="_blank" href={site.link}>
+                    <a target="_blank" rel="noreferrer" href={site.link}>
                       See Live
                     </a>
                   </div>

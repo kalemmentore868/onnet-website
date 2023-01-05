@@ -1,0 +1,19 @@
+.qualities h2 {
+  font-weight: 700;
+}
+
+.qualities p {
+  font-size: 20px;
+}
+
+.team {
+  border-radius: 20px;
+}
+
+.team svg {
+  margin-left: auto;
+}
+
+.about-us p {
+  font-size: 25px;
+}

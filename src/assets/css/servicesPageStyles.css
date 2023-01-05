@@ -1,0 +1,32 @@
+.hero-services {
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+}
+
+.hero-services h1 {
+  font-size: calc(5vw + 30px);
+}
+
+.services-p h2 {
+  font-size: 25px;
+}
+
+.services-p h3 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.services-p p {
+  font-size: 20px;
+}
+
+.services-p {
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-services h1 {
+    text-align: center;
+  }
+}

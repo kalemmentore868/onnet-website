@@ -1,12 +1,14 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../assets/img/logo.png";
 import "../assets/css/headerStyles.css";
-import { MdOutlineAccountCircle } from "react-icons/md";
 
 const Header = () => {
+  const location = useLocation();
+
   return (
     <Navbar sticky="top" expand="lg" bg="white" className="p-3">
       <Container>
@@ -25,25 +27,49 @@ const Header = () => {
           className="justify-content-between"
         >
           <Nav>
-            <Nav.Link className="n-link active me-4" href="/">
+            <Nav.Link
+              className={
+                location.pathname === "/" ? "n-link active me-4" : "n-link me-4"
+              }
+              href="/"
+            >
               Home
             </Nav.Link>
-            <Nav.Link className="n-link me-4" href="/services">
+            <Nav.Link
+              className={
+                location.pathname === "/services"
+                  ? "n-link active me-4"
+                  : "n-link me-4"
+              }
+              href="/services"
+            >
               Services
             </Nav.Link>
-            <Nav.Link className="n-link me-4" href="/about">
+            <Nav.Link
+              className={
+                location.pathname === "/about"
+                  ? "n-link active me-4"
+                  : "n-link me-4"
+              }
+              href="/about"
+            >
               About
             </Nav.Link>
 
-            <Nav.Link className="n-link" href="/contact">
+            <Nav.Link
+              className={
+                location.pathname === "/contact" ? "n-link active" : "n-link"
+              }
+              href="/contact"
+            >
               Contact
             </Nav.Link>
           </Nav>
 
-          <div className="login-box">
+          {/* <div className="login-box">
             <MdOutlineAccountCircle className="acc-icon" />{" "}
             <button className="login-btn">Login</button>
-          </div>
+          </div> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -1,4 +1,5 @@
 import React from "react";
+import GetInTouch from "../components/GetInTouch";
 import Hero from "../components/Hero";
 import Portfolio from "../components/Portfolio";
 import PricingPlans from "../components/PricingPlans";
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Services />
       <Portfolio />
       <PricingPlans />
+      <GetInTouch />
     </>
   );
 };

@@ -36,7 +36,9 @@ const PriceCard = ({ title, price, ticks }) => {
             );
           })}
         </ul>
-        <Button className="yellow-btn mb-3">GET STARTED</Button>
+        <Button href="/contact" className="yellow-btn mb-3">
+          GET STARTED
+        </Button>
       </Card.Body>
     </Card>
   );

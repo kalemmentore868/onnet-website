@@ -10,7 +10,9 @@ const ServicesLeft = () => {
         Our team of experts are guaranteed to deliver digital products that will
         help your business cement its place in the online world.
       </p>
-      <Button className="yellow-btn p-3">Explore More</Button>
+      <Button href="/services" className="yellow-btn p-3">
+        Explore More
+      </Button>
     </div>
   );
 };
