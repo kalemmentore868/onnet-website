@@ -18,7 +18,7 @@ const ContactPage = () => {
             src={contactImg}
             className="img-fluid"
             alt="a phone"
-            style={{ height: "500px" }}
+            style={{ height: "600px" }}
           />
         </Col>
         <Col md={6} className="mb-5">
