@@ -5,20 +5,30 @@ const AboutUs = () => {
     <section className="about-us text-center p-5">
       <h2 className="mx-5">About Us</h2>
       <p className="mt-5 text-start">
-        If you are like most busy owners and executives, you don’t have the time
-        to stay on top of every element of your company’s online presence. In
-        most cases utilizing internal staff to maintain the website, social
-        media, search optimization and other digital marketing services; is far
-        more costly and less effective than outsourcing those activities. It is
-        nearly impossible to find one person who possesses all the skills needed
-        for success: creative design, website coding, search engine
-        optimization, copywriting, social media moxie and more. Doing it right,
-        takes a team. Imagine having a technology department to handle all of
-        your firm’s online technology, at a price you can afford. As our Onnet
-        Web Services Client, that’s exactly what you get! From creating your
-        firm’s digital strategy to providing you with comprehensive monthly
-        reporting, our team will manage your firm’s online presence to insure
-        success and the results you want!
+        At Onnet, we are a team of experienced and passionate web designers who
+        are dedicated to creating visually stunning and user-friendly websites
+        for businesses of all sizes. Our goal is to help our clients increase
+        their online presence and reach more customers through beautifully
+        designed and fully-functional websites.
+        <br />
+        <br />
+        We understand that every business is unique, which is why we take the
+        time to get to know our clients and their specific needs. We work
+        closely with our clients throughout the design process, to ensure that
+        their website not only looks great, but also effectively communicates
+        their brand message and achieves their business objectives.
+        <br />
+        <br />
+        Our team has a wide range of skills and expertise, allowing us to handle
+        everything from simple brochure websites to complex e-commerce
+        platforms. We stay up-to-date with the latest web design trends and
+        technologies, ensuring that our clients' websites are not only visually
+        appealing, but also fully responsive and optimized for search engines.
+        We pride ourselves on delivering high-quality work, on time and on
+        budget. We are committed to providing exceptional customer service and
+        building long-term relationships with our clients. Let us help you take
+        your business to the next level with a website that truly represents
+        your brand and achieves your business goals.
       </p>
     </section>
   );

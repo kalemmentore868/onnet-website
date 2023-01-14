@@ -2,8 +2,8 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import contactImg from "../assets/img/contact-img.jpg";
+import careerImg from "../assets/img/career.jpg";
 import ContactForm from "../components/contactPageComponents/ContactForm";
-import { GiTeamUpgrade } from "react-icons/gi";
 import CareerForm from "../components/contactPageComponents/CareerForm";
 
 const ContactPage = () => {
@@ -26,13 +26,18 @@ const ContactPage = () => {
         </Col>
       </Row>
       <div className="my-5">
-        <h2>Join Our Team !</h2>
+        <h2 className="mb-4">Join Our Team !</h2>
         <Row>
-          <Col md={6}>
+          <Col className="mb-5" md={6}>
             <CareerForm />
           </Col>
           <Col md={6}>
-            <GiTeamUpgrade size={400} className="career-icon" />
+            <img
+              src={careerImg}
+              className="img-fluid"
+              alt="a phone"
+              style={{ height: "600px" }}
+            />
           </Col>
         </Row>
       </div>
