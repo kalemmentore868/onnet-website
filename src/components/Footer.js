@@ -15,7 +15,10 @@ const Footer = () => {
         </div>
 
         <div>
-          <a href="www.instagram.com" className="me-4 text-reset">
+          <a
+            href="https://www.instagram.com/onnet.services/"
+            className="me-4 text-reset"
+          >
             <BsInstagram size={25} />
           </a>
         </div>
