@@ -49,7 +49,10 @@ const CareerForm = () => {
       body: formData,
     };
 
-    fetch("http://127.0.0.1:8000/api/employees/post/", requestOptions)
+    fetch(
+      "https://web-production-f1d6.up.railway.app/api/employees/post/",
+      requestOptions
+    )
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

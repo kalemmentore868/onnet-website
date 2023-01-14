@@ -40,7 +40,10 @@ const ContactForm = () => {
       body: JSON.stringify(formValues),
     };
 
-    fetch("http://127.0.0.1:8000/api/clients/post/", requestOptions)
+    fetch(
+      "https://web-production-f1d6.up.railway.app/api/clients/post/",
+      requestOptions
+    )
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

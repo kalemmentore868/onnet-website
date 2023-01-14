@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { BsFacebook, BsInstagram, BsEnvelopeFill } from "react-icons/bs";
+import { BsInstagram, BsEnvelopeFill } from "react-icons/bs";
 import { AiOutlinePhone } from "react-icons/ai";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,10 +15,6 @@ const Footer = () => {
         </div>
 
         <div>
-          <a href="www.facebook.com" className="me-4 text-reset">
-            <BsFacebook size={25} />
-          </a>
-
           <a href="www.instagram.com" className="me-4 text-reset">
             <BsInstagram size={25} />
           </a>
@@ -43,17 +39,17 @@ const Footer = () => {
             <Col md={2} lg={2} xl={2} className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Site Menu</h6>
               <p>
-                <Link href="/services" className="text-reset">
+                <Link to="/services" className="text-reset">
                   Services
                 </Link>
               </p>
               <p>
-                <Link href="/about" className="text-reset">
+                <Link to="/about" className="text-reset">
                   About
                 </Link>
               </p>
               <p>
-                <Link href="/contact" className="text-reset">
+                <Link to="/contact" className="text-reset">
                   Contact us
                 </Link>
               </p>
@@ -62,12 +58,12 @@ const Footer = () => {
             <Col md={2} lg={2} xl={2} className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
               <p>
-                <Link href="/services" className="text-reset">
+                <Link to="/services" className="text-reset">
                   Pricing Plans
                 </Link>
               </p>
               <p>
-                <Link href="/about" className="text-reset">
+                <Link to="/about" className="text-reset">
                   Why Onnet?
                 </Link>
               </p>
@@ -92,7 +88,7 @@ const Footer = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         © 2022 Copyright:{" "}
-        <Link className="text-reset fw-bold" href="/">
+        <Link className="text-reset fw-bold" to="/">
           Onnet
         </Link>
       </div>
